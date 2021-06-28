@@ -1,9 +1,9 @@
 pipeline{
   agent any
   stages{
-    stage('Compile'){
+    stage('Build'){
       steps{
-          sh '
+          sh 'java -jar "SuperMiroGame.jar'
       }
     }
     
