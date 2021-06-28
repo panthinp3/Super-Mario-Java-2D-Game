@@ -1,9 +1,9 @@
 pipeline{
   agent any
   stages{
-    stage('Initial'){
+    stage('Compile'){
       steps{
-          echo "Hello"
+          sh '
       }
     }
     
