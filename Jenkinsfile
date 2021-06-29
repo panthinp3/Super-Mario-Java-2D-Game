@@ -4,7 +4,7 @@ pipeline{
     stage('Build'){
       steps{
         sh 'ls'
-          sh 'java -jar ../dist/"SuperMiroGame.jar"'
+          sh 'java -jar dist/SuperMiroGame.jar'
         sh 'ls'
       }
     }
