@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Build'){
       steps{
-          sh 'java -jar "SuperMiroGame.jar'
+          sh 'java -jar "../dist/SuperMiroGame.jar"'
       }
     }
     
